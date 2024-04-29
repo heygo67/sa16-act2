@@ -1,0 +1,27 @@
+<h1>John Doe's Portfolio</h1>
+
+<body>
+
+<p>
+    Hello, my name is John Doe.
+    I am a web developer.
+    This is my home page.
+    <%= image_tag 'john.jpg', class: 'w-100', style: 'max-width: 8rem; width: auto; display: block; margin-center: auto;' %>
+</p>
+
+<ul>
+    My expertise includes the following:
+    <li>fact 1</li>
+    <li>fact 2</li>
+    <li>fact 3</li>
+</ul>
+</body>
+
+<div>
+    <h2>Links</h2>
+    <ul>
+        <li><%= link_to 'About Me', about_path %></li>
+        <li><%= link_to 'My Projects', work_path %></li>
+        <li><%= link_to 'Contact Me', contact_path %></li>
+    </ul>
+</div>
